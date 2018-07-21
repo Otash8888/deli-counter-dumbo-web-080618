@@ -1,5 +1,13 @@
 # Write your code here.
 
-line
+def line()
+  
+end
 
-take_a_number
+take_a_number()
+
+end
+
+now_serving ()
+
+end
