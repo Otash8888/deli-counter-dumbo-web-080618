@@ -22,7 +22,7 @@ def take_a_number(katz_deli,name)
 katz_deli  
 end
 
-now_serving (katz_deli)
+def now_serving (katz_deli)
 puts "Currently serving #{katz_deli[0]}."
 katz_deli.shift
 katz_deli
