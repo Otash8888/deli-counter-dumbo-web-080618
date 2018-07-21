@@ -11,9 +11,7 @@ def line (katz_deli)
       end
     puts "The line is currently: #{katz_deli_with_n.join(" ")}"
    end
-  
 end
-
 
 def take_a_number(katz_deli,name)
   katz_deli.push(name)
