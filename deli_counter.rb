@@ -15,9 +15,11 @@ def take_a_number(katz_deli,name)
   katz_deli.push(name)
   
   puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
-  
+katz_deli  
 end
 
 now_serving (katz_deli)
-puts 
+puts "Currently serving #{katz_deli[0}."
+katz_deli.shift
+katz_deli
 end
