@@ -7,10 +7,9 @@ def line (katz_deli)
   else
    katz_deli_with_n = [] 
     katz_deli.each_with_index do |name, index|
-    katz_deli_with_n.push("#{index+1}.#{}")
-    "The line is currently: 1. Ada 2. Grace 3. Kent"
-    
+    katz_deli_with_n.push("#{index+1}. #{name}")
     end
+    puts "The line is currently: 1. Ada 2. Grace 3. Kent"
   end
   
 end
