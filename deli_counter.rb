@@ -10,7 +10,7 @@ def line (katz_deli)
     katz_deli_with_n.push("#{index+1}. #{name}")
     end
     puts "The line is currently: #{katz_deli_with_n.join(" ")}"
-  end
+   end
   
 end
 
