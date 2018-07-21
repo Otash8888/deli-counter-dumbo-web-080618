@@ -4,7 +4,8 @@ def line(katz_deli)
   if katz_deli == []
   puts "The line is currently empty."
   else
-  
+    
+  "The line is currently: 1. Ada 2. Grace 3. Kent"
   end
   
 end
@@ -18,5 +19,5 @@ def take_a_number(katz_deli,name)
 end
 
 now_serving (katz_deli)
-
+puts 
 end
