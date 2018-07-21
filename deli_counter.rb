@@ -16,6 +16,6 @@ def take_a_number(katz_deli,name)
   end
 end
 
-now_serving ()
+now_serving (katz_deli)
 
 end
